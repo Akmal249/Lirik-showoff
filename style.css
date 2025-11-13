@@ -1,0 +1,36 @@
+body {
+    display: block;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(#550d39, #270537);
+    overflow: hidden;
+}
+
+h2, h3 {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.header {
+    display: sticky;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.lirik-body {
+    display: block;
+    margin-left: 12px;
+    z-index: 100;
+}
+
+.lirik-child {
+    font-size: 16pt;
+    color: rgba(255, 255, 255, 0.25);
+    margin: 0px;
+}
